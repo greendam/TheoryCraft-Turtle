@@ -744,7 +744,7 @@ TheoryCraft_Buffs = {
 	{ text="Spell damage and healing done increased by (%d+)%%%.", type="Allbaseincrease", amount="n/100" },	-- Power Infusion
 	{ text="Increased damage and mana cost for your spells%.", type="Damagemodifier", amount=0.35 },		-- Arcane Power
 	{ text="(%d+) [mM]ana every 5 seconds%.", type="manaperfive" }, 						-- Blessing of Wisdom/Nightfin soup
-	{ text="Increased damage done by magical spells and effects by -(%d+)", type="Damage" }, 				-- Inner Fire
+	{ text="Increased damage done by magical spells and effects by -(%d+)", type="Damage" }, 			-- Inner Fire
 	{ text="Mana Regeneration increased by (%d+) every 5 seconds%.", type="manaperfive" }, 				-- Safefish Well Fed
 	{ text="Spell damage increased by .-(%d+)", type="Damage" }, 							-- Flask of Supreme Power / ZHC Damage
 	{ text="spell critical chance.-(%d+)", type="Allcritchance" },							-- Moonkin Aura/Fire Festival Fury
