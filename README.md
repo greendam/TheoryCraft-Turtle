@@ -1,3 +1,5 @@
+# Updated for 1.17.2
+
 # TheoryCraft for Turtle WoW 1.16.5
 
 TheoryCraft calculates DPS and other similarly insightful info, about what each specific ability or spell does. 
