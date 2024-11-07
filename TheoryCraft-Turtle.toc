@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Author: Aelian, Zaas
-## Title: TheoryCraft Turtle WoW 1.16.1
+## Title: TheoryCraft Turtle WoW 1.17.2
 ## Notes: Tells you everything about an ability, right on the tooltip.
 ## Version: 1.16.1
 ## SavedVariablesPerCharacter: TheoryCraft_Settings
