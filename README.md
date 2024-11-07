@@ -1,5 +1,11 @@
 # Updated for 1.17.2
-
+Hunter []
+Mage []
+Shaman []
+Paladi []
+Priest [x]
+Warrior []
+Warlock []
 # TheoryCraft for Turtle WoW 1.16.5
 
 TheoryCraft calculates DPS and other similarly insightful info, about what each specific ability or spell does. 
