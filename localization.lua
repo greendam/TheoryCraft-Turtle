@@ -513,7 +513,7 @@ TheoryCraft_Locale = {
 		{ id="divinefury", translated="Divine Fury" },
 		{ id="imphealing", translated="Imp Healing" },
 		{ id="searinglight", translated="Searing Light" },
-		{ id="swiftrec", translated="Swift Recovery" },
+		--{ id="swiftrec", translated="Swift Recovery" },
 		{ id="guidance", translated="Guidance" },
 		{ id="imppoh", translated="Imp PoH" },
 		{ id="spiritual", translated="Spiritual" },
