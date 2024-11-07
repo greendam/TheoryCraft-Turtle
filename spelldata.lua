@@ -92,6 +92,7 @@ TheoryCraft_Talents = {
 	--{ class="PRIEST", name="searinglight", bonustype="SearingLightmodifier", tree=2, number=11, perrank=0.05 },
 	--{ class="PRIEST", name="imppoh", bonustype="Prayer of Healingmanacost", tree=2, number=12, perrank=-0.1, forceonly=1, forcetree=3 },
 	{ class="PRIEST", name="guidance", bonustype="Allspiritual", tree=2, number=12, perrank=0.05 },
+	{ class="PRIEST", name="Spirit", bonustype="spiritmultiplier", tree=2, number=13, perrank=0.05 },
 	{ class="PRIEST", name="spiritual", bonustype="Healingmodifier", tree=2, number=15, perrank=0.06 },
 	{ class="PRIEST", name="shadowfocus", bonustype="Shadowhitchance", tree=3, number=5, perrank=2 },
 	{ class="PRIEST", name="darkness", bonustype="Shadowmodifier", tree=3, number=16, perrank=0.02 },
@@ -490,7 +491,7 @@ TheoryCraft_Outfits = {
 			agility = 0,
 			stamina = 0,
 			intellect = 0,
-			spirit = 0,
+			 = 0,
 	},
 	{
 			name = "Custom",
@@ -511,7 +512,7 @@ TheoryCraft_Outfits = {
 			agility = 0,
 			stamina = 0,
 			intellect = 0,
-			spirit = 0,
+			 = 0,
 	},
 	{ 
 			class = "MAGE",
@@ -521,7 +522,7 @@ TheoryCraft_Outfits = {
 			newstat = { },
 			stamina = 66,
 			intellect = 167,
-			spirit = 79,
+			 = 79,
 	},
 	{ 
 			class = "MAGE",
@@ -535,7 +536,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 104,
 			intellect = 145,
-			spirit = 72,
+			 = 72,
 	},
 	{ 
 			class = "MAGE",
@@ -549,7 +550,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 109,
 			intellect = 160,
-			spirit = 72,
+			 = 72,
 	},
 	{ 
 			class = "MAGE",
@@ -562,7 +563,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 116,
 			intellect = 159,
-			spirit = 69,
+			 = 69,
 	},
 	{
 			class = "MAGE",
@@ -577,7 +578,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 95,
 			intellect = 100,
-			spirit = 37,
+			 = 37,
 	},
 	{
 			class = "MAGE",
@@ -590,7 +591,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 162,
 			intellect = 178,
-			spirit = 61,
+			 = 61,
 	},
 	{ 
 			class = "WARLOCK",
@@ -600,7 +601,7 @@ TheoryCraft_Outfits = {
 			newstat = { },
 			stamina = 114,
 			intellect = 118,
-			spirit = 95,
+			 = 95,
 	},
 	{ 
 			class = "WARLOCK",
@@ -625,7 +626,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 180,
 			intellect = 128,
-			spirit = 51,
+			 = 51,
 	},
 	{ 
 			class = "WARLOCK",
@@ -637,7 +638,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 171,
 			intellect = 112,
-			spirit = 42,
+			 = 42,
 	},
 	{
 			class = "WARLOCK",
@@ -651,7 +652,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 118,
 			intellect = 92,
-			spirit = 29,
+			 = 29,
 	},
 	{
 			class = "WARLOCK",
