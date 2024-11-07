@@ -516,6 +516,7 @@ TheoryCraft_Locale = {
 		{ id="guidance", translated="Guidance" },
 		{ id="imppoh", translated="Imp PoH" },
 		{ id="spiritual", translated="Spiritual" },
+		{ id="spirit", translated="Spirit" },
 		{ id="shadowfocus", translated="Shadow Focus" },
 		{ id="darkness", translated="Darkness" },
 -- Warrior
