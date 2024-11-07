@@ -358,6 +358,7 @@ TheoryCraft_Locale = {
 		["Greater Heal"] = "Greater Heal",
 		["Devouring Plague"] = "Devouring Plague",
 		["Renew"] = "Renew",
+		["Swift Recovery"] = "swiftrec",
 		["Inner fire"] = "Inner Fire",
 		["Starshards"] = "Starshards",
 
