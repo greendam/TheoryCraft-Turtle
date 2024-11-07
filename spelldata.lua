@@ -492,7 +492,7 @@ TheoryCraft_Outfits = {
 			agility = 0,
 			stamina = 0,
 			intellect = 0,
-			 = 0,
+			spirit = 0,
 	},
 	{
 			name = "Custom",
@@ -513,7 +513,7 @@ TheoryCraft_Outfits = {
 			agility = 0,
 			stamina = 0,
 			intellect = 0,
-			 = 0,
+			spirit = 0,
 	},
 	{ 
 			class = "MAGE",
@@ -523,7 +523,7 @@ TheoryCraft_Outfits = {
 			newstat = { },
 			stamina = 66,
 			intellect = 167,
-			 = 79,
+			spirit = 79,
 	},
 	{ 
 			class = "MAGE",
@@ -537,7 +537,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 104,
 			intellect = 145,
-			 = 72,
+			spirit = 72,
 	},
 	{ 
 			class = "MAGE",
@@ -551,7 +551,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 109,
 			intellect = 160,
-			 = 72,
+			spirit = 72,
 	},
 	{ 
 			class = "MAGE",
@@ -564,7 +564,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 116,
 			intellect = 159,
-			 = 69,
+			spirit = 69,
 	},
 	{
 			class = "MAGE",
@@ -579,7 +579,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 95,
 			intellect = 100,
-			 = 37,
+			spirit = 37,
 	},
 	{
 			class = "MAGE",
@@ -592,7 +592,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 162,
 			intellect = 178,
-			 = 61,
+			spirit = 61,
 	},
 	{ 
 			class = "WARLOCK",
@@ -602,7 +602,7 @@ TheoryCraft_Outfits = {
 			newstat = { },
 			stamina = 114,
 			intellect = 118,
-			 = 95,
+			spirit = 95,
 	},
 	{ 
 			class = "WARLOCK",
@@ -627,7 +627,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 180,
 			intellect = 128,
-			 = 51,
+			spirit = 51,
 	},
 	{ 
 			class = "WARLOCK",
@@ -639,7 +639,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 171,
 			intellect = 112,
-			 = 42,
+			spirit = 42,
 	},
 	{
 			class = "WARLOCK",
@@ -653,7 +653,7 @@ TheoryCraft_Outfits = {
 				  },
 			stamina = 118,
 			intellect = 92,
-			 = 29,
+			spirit = 29,
 	},
 	{
 			class = "WARLOCK",
