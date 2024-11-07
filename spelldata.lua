@@ -86,6 +86,7 @@ TheoryCraft_Talents = {
 	{ class="PRIEST", name="forceofwill", bonustype="Damagecritchance", tree=1, number=17, perrank=1, dontlist=1 },
 	{ class="PRIEST", name="forceofwill", bonustype="Power Word: Shieldmodifier", tree=1, number=17, perrank=0.04, dontlist=1 },
 	{ class="PRIEST", name="imprenew", bonustype="Renewmodifier", tree=2, number=1, perrank=0.05 },
+	{ class="PRIEST", name="swiftrec", bonustype="Healingmodifier", tree=2, number=10, perrank=0.03 },
 	{ class="PRIEST", name="holyspec", bonustype="Holycritchance", tree=2, number=3, perrank=1 },
 	{ class="PRIEST", name="divinefury", bonustype="Divinefurycasttime", tree=2, number=4, perrank=-0.1, forceonly=1 },
 	{ class="PRIEST", name="imphealing", bonustype="ImpHealingmanacost", tree=2, number=11, perrank=-0.05, forceonly=1 },
