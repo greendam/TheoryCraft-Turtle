@@ -131,7 +131,7 @@ TheoryCraft_Talents = {
 	{ class="ROGUE", name="impambush", bonustype="Ambushcritchance", tree=3, number=9, perrank=15 },
 
 	{ class="WARRIOR", name="imprend", bonustype="Rendmodifier", tree=1, number=3, perrank=0.1 },
-	--{ class="WARRIOR", name="impclap", bonustype="Thunder Clapmodifier", tree=1, number=6, perrank=0.2 },
+	{ class="WARRIOR", name="impclap", bonustype="Thunder Clapmodifier", tree=1, number=6, perrank=0.2 },
 	{ class="WARRIOR", name="impoverpower", bonustype="Overpowercritchance", tree=1, number=7, perrank=25 },
 	{ class="WARRIOR", name="impale", bonustype="Meleecritbonus", tree=1, number=11, perrank=0.1 },
 	{ class="WARRIOR", name="twohandspec", bonustype="Twohandmodifier", tree=1, number=10, perrank=0.01 },
