@@ -3,7 +3,7 @@ Druid []
 
 Hunter []
 
-Mage []
+Mage [x]
 
 Shaman []
 
@@ -15,7 +15,7 @@ Rogue []
 
 Warrior []
 
-Warlock []
+Warlock [x]
 
 Will add new Talents/data for 1.17.2 patch when all classes are updated
 
