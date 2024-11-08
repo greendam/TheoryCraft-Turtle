@@ -131,7 +131,7 @@ TheoryCraft_Talents = {
 	{ class="ROGUE", name="impambush", bonustype="Ambushcritchance", tree=3, number=9, perrank=15 },
 
 	{ class="WARRIOR", name="imprend", bonustype="Rendmodifier", tree=1, number=3, perrank=0.1 },
-	{ class="WARRIOR", name="impclap", bonustype="Thunder Clapmodifier", tree=1, number=6, perrank=0.2 },
+	--{ class="WARRIOR", name="impclap", bonustype="Thunder Clapmodifier", tree=1, number=6, perrank=0.2 },
 	{ class="WARRIOR", name="impoverpower", bonustype="Overpowercritchance", tree=1, number=7, perrank=25 },
 	{ class="WARRIOR", name="impale", bonustype="Meleecritbonus", tree=1, number=11, perrank=0.1 },
 	{ class="WARRIOR", name="twohandspec", bonustype="Twohandmodifier", tree=1, number=10, perrank=0.01 },
@@ -353,7 +353,7 @@ TheoryCraft_Spells = {
 			Schools={ "Melee" } },
 		{ id="Cleave", nextattack=1, ismelee=1, cancrit=1, armor=1,
 			Schools={ "Melee" } },
-		{ id="Thunder Clap", cancrit=1, armor=1, ismelee=1, dontusemelee=1,
+		{ id="Thunder Clap", cancrit=1, noscale=1, armor=1, ismelee=1, dontusemelee=1,
 			Schools={ "Melee" } },
 		{ id="Shield Slam", cancrit=1, armor=1, ismelee=1, forcemult=2.2,
 			Schools={ "Melee" } },
