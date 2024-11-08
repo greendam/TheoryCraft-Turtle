@@ -383,6 +383,7 @@ TheoryCraft_Locale = {
 		["Swipe"] = "Swipe",
 
 		["Bloodthirst"] = "Bloodthirst",
+		["Rend"] = "Rend",
 		["Mortal Strike"] = "Mortal Strike",
 		["Overpower"] = "Overpower",
 		["Whirlwind"] = "Whirlwind",
@@ -528,6 +529,7 @@ TheoryCraft_Locale = {
 -- Warrior
 		{ id="impoverpower", translated="Overpower" },
 		{ id="impale", translated="Impale" },
+		{ id="imprend", translated="Imp Rend" },
 		{ id="twohandspec", translated="Twohnd Spec" },
 		{ id="axespec", translated="Axe Spec" },
 		{ id="polearmspec", translated="Polearm Spec" },
