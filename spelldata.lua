@@ -357,7 +357,7 @@ TheoryCraft_Spells = {
 			Schools={ "Melee" } },
 		{ id="Shield Slam", cancrit=1, armor=1, ismelee=1, forcemult=2.2,
 			Schools={ "Melee" } },
-		{ id="Rend", armor=1, ismelee=1, percent=1, dodps=1, isdot=1, dontdomax=1,
+		{ id="Rend", armor=1, ismelee=1,
 			Schools={ "Melee" } },
 		{ id="Mocking Blow", ismelee=1, cancrit=1, noscale=1, armor=1,
 			Schools={ "Melee" } },
