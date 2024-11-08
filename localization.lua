@@ -528,6 +528,7 @@ TheoryCraft_Locale = {
 		{ id="darkness", translated="Darkness" },
 -- Warrior
 		{ id="impoverpower", translated="Overpower" },
+		{ id="impclap", translated="Imp Thunder Clap" },
 		{ id="impale", translated="Impale" },
 		{ id="imprend", translated="Imp Rend" },
 		{ id="twohandspec", translated="Twohnd Spec" },
