@@ -454,6 +454,7 @@ TheoryCraft_Locale = {
 		{ id="clearcast", translated="Clearcast" },
 		{ id="meditation", translated="Meditation" },
 		{ id="arcanemind", translated="Arcane Mind" },
+		{ id="potency", translated="Arcane Potency" },
 		{ id="instab", translated="Instability" },
 		{ id="impfire", translated="Fireball" },
 		{ id="ignite", translated="Ignite" },
