@@ -157,7 +157,7 @@ TheoryCraft_MeleeMinMaxReader = {
 	{ pattern = "that causes (%d+) damage,",							-- Mocking Blow
 		type={"addeddamage"} },
 	{ pattern = "and doing (%d+) damage to them",							-- Thunder Clap
-		type={"thunder clapmult"} },
+		type={"addeddamage"} },
 
 }
 
