@@ -13,7 +13,7 @@ Priest [x]
 
 Rogue []
 
-Warrior []
+Warrior [x]
 
 Warlock [x]
 
