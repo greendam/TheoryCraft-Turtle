@@ -16,6 +16,10 @@ Version Kronos
 	-Bugs:
 	- lifetap feature still bugged and is applied to all abilities except lifetap at the moment	
 
+Version 1.06.6
+	- Added support for Rend
+	- Talents now reflect correctly for Warrior, Priest, Mage, Warlock
+
 Version 1.06.5
 	- Changing action bar pages finally works with button text
 	- Forms, Warrior stances now work correctly with button text
