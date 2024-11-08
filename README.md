@@ -17,7 +17,7 @@ Warrior []
 
 Warlock []
 
-Will add new Talents/data for 1.17.2 patch when all classes is updated
+Will add new Talents/data for 1.17.2 patch when all classes are updated
 
 # TheoryCraft for Turtle WoW 1.16.5
 
