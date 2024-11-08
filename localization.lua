@@ -157,7 +157,7 @@ TheoryCraft_MeleeMinMaxReader = {
 	{ pattern = "that causes (%d+) damage,",							-- Mocking Blow
 		type={"addeddamage"} },
 	{ pattern = "and doing (%d+) damage to them",							-- Thunder Clap
-		type={"addeddamage"} },
+		type={"tmptext"} },
 
 }
 
@@ -200,7 +200,7 @@ TheoryCraft_MeleeMinMaxReplacer = {
 	  replacewith = "inflicting $damage$ damage." },
 	{ search = "that causes (%d+) damage,",								-- Mocking Blow
 	  replacewith = "that causes $damage$ damage," },
-	{ search = "and doing %d+%% damage to them",							-- Thunder Clap
+	{ search = "and doing %d+ damage to them",							-- Thunder Clap
 	  replacewith = "and doing $damage$ damage to them" },
 	{ search = " causing weapon damage ",								-- Whirlwind
 	  replacewith = " causing $damage$ damage " },
