@@ -132,6 +132,8 @@ TheoryCraft_MeleeMinMaxReader = {
 		type={"bloodthirstmult"} },
 	{ pattern = "causing (%d+) to (%d+) damage, modified by attack power",				-- Shield Slam
 		type={"mindamage", "maxdamage"} },
+	{ pattern = "bleed for (%d+) to (%d+) damage",							-- Rend
+		type={"mindamage", "maxdamage"} },
 	{ pattern = "(%d+)%% damage",									-- Shred/Ravage
 		type={"backstabmult"} },
 	{ pattern = "(%d+)%% weapon damage",								-- Backstab
@@ -161,6 +163,8 @@ TheoryCraft_MeleeMinMaxReader = {
 
 TheoryCraft_MeleeMinMaxReplacer = {
 	{ search = " causing %d+ to %d+ damage, modified by attack power, ",				-- Shield Slam
+	  replacewith = " causing $damage$ damage " },
+	{ search = " bleed for $damage$ damage ",							-- Rend
 	  replacewith = " causing $damage$ damage " },
 	{ search = " deals %d+%% weapon damage and ",							-- Scattershot / Ghostly
 	  replacewith = " deals $damage$ damage and " },
