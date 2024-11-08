@@ -200,9 +200,9 @@ TheoryCraft_MeleeMinMaxReplacer = {
 	  replacewith = "inflicting $damage$ damage." },
 	{ search = "that causes (%d+) damage,",								-- Mocking Blow
 	  replacewith = "that causes $damage$ damage," },
-	{ search = "and doing %d+ damage to them",							-- Thunder Clap
+	{ search = "and doing %d+%% damage to them",							-- Thunder Clap
 	  replacewith = "and doing $damage$ damage to them" },
-	{ search = " causing weapon damage ",						-- Whirlwind
+	{ search = " causing weapon damage ",								-- Whirlwind
 	  replacewith = " causing $damage$ damage " },
 }
 
@@ -528,7 +528,7 @@ TheoryCraft_Locale = {
 		{ id="darkness", translated="Darkness" },
 -- Warrior
 		{ id="impoverpower", translated="Overpower" },
-		{ id="impclap", translated="Imp Thunder Clap" },
+		{ id="impclap", translated="Imp Clap" },
 		{ id="impale", translated="Impale" },
 		{ id="imprend", translated="Imp Rend" },
 		{ id="twohandspec", translated="Twohnd Spec" },
