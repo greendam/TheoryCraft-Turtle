@@ -134,6 +134,10 @@ TheoryCraft_MeleeMinMaxReader = {
 		type={"mindamage", "maxdamage"} },
 	{ pattern = "bleed for (%d+) to (%d+) damage",							-- Rend
 		type={"mindamage", "maxdamage"} },
+	{ pattern = "strike that deals (%d+)%% weapon damage",								-- Crusader Strike
+		type={"addeddamage"} },
+	{ pattern = "plus an additional(%d+)",									-- Crusader Strike
+		type={"addeddamage"} },
 	{ pattern = "(%d+)%% damage",									-- Shred/Ravage
 		type={"backstabmult"} },
 	{ pattern = "(%d+)%% weapon damage",								-- Backstab
@@ -176,6 +180,8 @@ TheoryCraft_MeleeMinMaxReplacer = {
 	  replacewith = " causing $damage$ damage" },
 	{ search = " causing %d+%% weapon damage plus %d+ to the target",				-- Backstab
 	  replacewith = " causing $damage$ damage" },
+	{ search = " deals %d+%% weapon damage plus an additional %d+",				-- Crusader strike
+	  replacewith = " causing $damage$ damage" },
 	{ search = " causing %d+%% damage plus %d+ to the target",					-- Shred/Ravage
 	  replacewith = " causing $damage$ damage" },
 	{ search = " causes %d+ damage in addition to your normal weapon damage",			-- Sinister Strike
@@ -211,14 +217,17 @@ TheoryCraft_SpellMinMaxReader = {
 		type={"mindamage", "maxdamage", "mindamage", "maxdamage"} },
 	{ pattern = "causing (%d+) Fire damage to himself and (%d+) Fire damage",			-- Hellfire
 		type={"bothdamage", "bothdamage"} },
-
 	{ pattern = "will be struck for (%d+) Nature damage.",						-- Lightning Shield
 		type={"bothdamage"} },
-
 	{ pattern = "and causing (%d+) Nature damage",							-- Insect Swarm
 		type={"bothdamage"} },
-
 	{ pattern = "horror for 3 sec and causes (%d+) Shadow damage",					-- Death Coil
+		type={"bothdamage"} },
+	{ pattern = "strike your target for (%d+) to (%d+) Holy damage",					-- Holy Strike
+		type={"mindamage", "maxdamage"} },
+	{ pattern = "dealing (%d+) to (%d+) Holy damage",				-- Bulwark of the Righteous
+		type={"mindamage", "maxdamage"} },
+	{ pattern = "deals (%d+) Holy damage for each attack blocked",				-- Holy Shield
 		type={"bothdamage"} },
 
 	{ pattern = "(%d+) to (%d+)(.+)and another (%d+) to (%d+)",					-- Generic Hybrid spell
@@ -412,6 +421,8 @@ TheoryCraft_Locale = {
 		["Seal of Command"] = "Seal of Command",
 		["Seal of Righteousness"] = "Seal of Righteousness",
 		["Holy Shock"] = "Holy Shock",
+		["Holy Strike"] = "Holy Strike",
+		["Crusader Strike"] = "Crusader Strike",
 
 		["Chain Lightning"] = "Chain Lightning",
 		["Lightning Bolt"] = "Lightning Bolt",
@@ -577,6 +588,7 @@ TheoryCraft_Locale = {
 		{ id="illumination", translated="Illumination" },
 		{ id="holypower", translated="Holy Power" },
 		{ id="conviction", translated="Conviction" },
+		{ id="healinglight", translated="Healing light" },
 -- Rogue
 		{ id="malice", translated="Malice" },
 		{ id="lethality", translated="Lethality" },
@@ -736,6 +748,7 @@ TheoryCraft_Buffs = {
 	{ text="(%d+) extra healing from Flash of Light spells%.", type="Flash of Light", amount="fol", target = "target" },	-- Blessing of light
 	{ text="Holy Shock spell increased by 100%%", type="Holycritchance", amount=100 },				-- Divine Favour
 	{ text="Holy Shock spell increased by 100%%", type="Holy Shockcritchance", amount=100 },			-- Divine Favour
+	{ text="Holy damage done by (%d+)%%%.", type="Damagebaseincrease", amount="n/100" },		-- Sanctity Aura
 	{ text="Increases critical strike chance from Fire damage spells by (%d+)%%", type="Firecritchance" },		-- Combustion in 1.11
 	{ text="Spell effects increased by (%d+)%.", type="All" },							-- Spell Blasting
 	{ text="Mana cost of your next spell is reduced by 100%%%.", type="Holycritchance", amount=25 },		-- Inner Focus
@@ -784,7 +797,7 @@ TheoryCraft_Debuffs = {
 	{ text="Reduces Shadow and Arcane resistances by (%d+)%.", type="Shadowpenetration" },				-- Curse of Shadows
 	{ text="Reduces Shadow and Arcane resistances by (%d+)%.", type="Arcanepenetration" },				-- Curse of Shadows
 	{ text="Increases Nature damage taken by (%d+)%%.", type="Nature" },						-- Stormstrike
-	{ text="Increases Holy damage taken by up to (%d+)%%.", type="Holy" },						-- Judgement of Crusader
+	{ text="Increases Holy damage taken by up to (%d+).", type="Holy" },						-- Judgement of Crusader
 	{ text="Frozen in place%.", type="doshatter", amount=1 },							-- Frost Nova
 	{ text="Frozen%.", type="doshatter", amount=1 },								-- Freezing Band?
 	{ text="Increases Fire damage taken by (%d+)%%%.", type="Firebaseincrease", amount="n/100" },			-- Improved Scorch

@@ -424,6 +424,7 @@ function TheoryCraft_LoadStats(talents)
 	_, tmp = UnitStat("player", 4)
 	TheoryCraft_Data.Stats["intellect"] = tmp
 	_, tmp = UnitStat("player", 5)
+	TheoryCraft_Data.Stats["armor"] = tmp
 	TheoryCraft_Data.Stats["spirit"] = tmp
 	TheoryCraft_Data.Stats["agipercrit"] = agipercrit()
 
@@ -574,6 +575,7 @@ function TheoryCraft_LoadStats(talents)
 	end
 
 	TheoryCraft_Data.Stats["All"] = math.floor(TheoryCraft_Data.Stats["spirit"]*(talents["Allspiritual"] or 0))
+	TheoryCraft_Data.Stats["All"] = math.floor(TheoryCraft_Data.Stats["armor"]*(talents["Healingarmor"] or 0))
 	TheoryCraft_Data.Stats["BlockValue"] = TheoryCraft_GetStat("BlockValueReport")+(TheoryCraft_Data.Stats["strength"]/20) - 1
 end
 
