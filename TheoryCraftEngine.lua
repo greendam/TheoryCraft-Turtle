@@ -424,8 +424,8 @@ function TheoryCraft_LoadStats(talents)
 	_, tmp = UnitStat("player", 4)
 	TheoryCraft_Data.Stats["intellect"] = tmp
 	_, tmp = UnitStat("player", 5)
-	TheoryCraft_Data.Stats["armor"] = tmp
 	TheoryCraft_Data.Stats["spirit"] = tmp
+	TheoryCraft_Data.Stats["armor"] = tmp
 	TheoryCraft_Data.Stats["agipercrit"] = agipercrit()
 
 	local _, catform, bearform
@@ -470,6 +470,7 @@ function TheoryCraft_LoadStats(talents)
 	TheoryCraft_Data.Stats["stamina"] = TheoryCraft_Data.Stats["stamina"]/talents["stammultiplierreal"]
 	TheoryCraft_Data.Stats["intellect"] = TheoryCraft_Data.Stats["intellect"]/talents["intmultiplierreal"]
 	TheoryCraft_Data.Stats["spirit"] = TheoryCraft_Data.Stats["spirit"]/talents["spiritmultiplierreal"]
+	TheoryCraft_Data.Stats["armor"] = TheoryCraft_Data.Stats["armor"]/talents["armormultiplierreal"]
 	TheoryCraft_Data.Stats["formattackpower"] = 0
 
 	if (TheoryCraft_Outfits[outfit].meleecritchance) then TheoryCraft_Data.Stats["meleecritchance"] = TheoryCraft_Data.Stats["meleecritchance"]+TheoryCraft_Outfits[outfit].meleecritchance end
@@ -575,7 +576,8 @@ function TheoryCraft_LoadStats(talents)
 	end
 
 	TheoryCraft_Data.Stats["All"] = math.floor(TheoryCraft_Data.Stats["spirit"]*(talents["Allspiritual"] or 0))
-	TheoryCraft_Data.Stats["All"] = math.floor(TheoryCraft_Data.Stats["armor"]*(talents["Healingarmor"] or 0))
+	TheoryCraft_Data.Stats["Healing"] = math.floor(TheoryCraft_Data.Stats["armor"] * (talents["Allarmor"] or 0) * 0.3)
+	--TheoryCraft_Data.Stats["Healing"] = math.floor(TheoryCraft_Data.Stats["armor"]*(talents["Allarmor"] or 0))
 	TheoryCraft_Data.Stats["BlockValue"] = TheoryCraft_GetStat("BlockValueReport")+(TheoryCraft_Data.Stats["strength"]/20) - 1
 end
 

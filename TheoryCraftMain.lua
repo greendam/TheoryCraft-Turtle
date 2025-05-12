@@ -29,6 +29,7 @@ TheoryCraft_Data.Talents["intmultiplier"] = 1
 TheoryCraft_Data.Talents["spiritmultiplier"] = 1
 TheoryCraft_Data.Talents["manamultiplier"] = 1
 TheoryCraft_Data.Talents["healthmultiplier"] = 1
+TheoryCraft_Data.Talents["armormultiplier"] = 1
 local _, class = UnitClass("player")
 local _, race = UnitRace("player")
 if (race == "Gnome") then
@@ -47,6 +48,7 @@ TheoryCraft_Data.Talents["intmultiplierreal"] = TheoryCraft_Data.Talents["intmul
 TheoryCraft_Data.Talents["spiritmultiplierreal"] = TheoryCraft_Data.Talents["spiritmultiplier"]
 TheoryCraft_Data.Talents["manamultiplierreal"] = 1
 TheoryCraft_Data.Talents["healthmultiplierreal"] = TheoryCraft_Data.Talents["healthmultiplier"]
+TheoryCraft_Data.Talents["armormultiplierreal"] = TheoryCraft_Data.Talents["armormultiplier"]
 TheoryCraft_Data.Stats = {}
 
 TheoryCraft_UpdatedButtons = {}

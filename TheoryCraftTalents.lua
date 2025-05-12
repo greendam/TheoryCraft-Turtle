@@ -21,6 +21,7 @@ local function TheoryCraft_AddAllTalents(data, ignoreforce)
 	data["spiritmultiplier"] = 1
 	data["manamultiplier"] = 1
 	data["healthmultiplier"] = 1
+	data["armormultiplier"] = 1
 	local _, race = UnitRace("player")
 	if (race == "Gnome") then
 		data["intmultiplier"] = 1.05
@@ -38,6 +39,7 @@ local function TheoryCraft_AddAllTalents(data, ignoreforce)
 	data["spiritmultiplierreal"] = data["spiritmultiplier"]
 	data["manamultiplierreal"] = data["manamultiplier"]
 	data["healthmultiplierreal"] = data["healthmultiplier"]
+	data["armormultiplierreal"] = data["armormultiplier"]
 
 	local nameTalent, icon, iconx, icony, currank, maxRank = GetTalentInfo(1, 1)
 	if nameTalent == nil then return end
@@ -144,6 +146,9 @@ local function TheoryCraft_AddAllTalents(data, ignoreforce)
 			end
 			if (TheoryCraft_Talents[i].bonustype == "spiritmultiplier") then
 				data["spiritmultiplierreal"] = data["spiritmultiplierreal"]+currank
+			end
+			if (TheoryCraft_Talents[i].bonustype == "armormultiplier") then
+				data["armormultiplierreal"] = data["armormultiplierreal"]+currank
 			end
 		end
 		i = i + 1
