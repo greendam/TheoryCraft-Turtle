@@ -223,11 +223,15 @@ TheoryCraft_SpellMinMaxReader = {
 		type={"bothdamage"} },
 	{ pattern = "horror for 3 sec and causes (%d+) Shadow damage",					-- Death Coil
 		type={"bothdamage"} },
-	{ pattern = "strike your target for (%d+) to (%d+) Holy damage",					-- Holy Strike
-		type={"mindamage", "maxdamage"} },
+	{ pattern = "strike your target for (%d+) to (%d+)(.+) Holy damage, restoring (%d+) health",			-- Holy Strike
+		type={"mindamage", "maxdamage", "tmptext", "bothdamage"} },
+	--{ pattern = "restoring (%d+) health and (%d+) mana",					-- Holy Strike
+	--	type={"mindamage", "maxdamage"} },
 	{ pattern = "dealing (%d+) to (%d+) Holy damage",				-- Bulwark of the Righteous
 		type={"mindamage", "maxdamage"} },
 	{ pattern = "deals (%d+) Holy damage for each attack blocked",				-- Holy Shield
+		type={"bothdamage"} },
+	{ pattern = "when the target blocks a melee attack the attacker will take (%d+) Holy damage",				-- Blessing of sanctuary
 		type={"bothdamage"} },
 
 	{ pattern = "(%d+) to (%d+)(.+)and another (%d+) to (%d+)",					-- Generic Hybrid spell
