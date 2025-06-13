@@ -132,7 +132,7 @@
 			</Anchor>
 		</Anchors>
 		<Size>
-			<AbsDimension x="340" y="400"/>
+			<AbsDimension x="340" y="520"/>
 		</Size>
 		<Scripts>
 			<OnMouseDown>
@@ -175,7 +175,7 @@
 					</Anchor>
 				</Anchors>
 				<Size>
-					<AbsDimension x="340" y="400"/>
+					<AbsDimension x="340" y="520"/>
 				</Size>
 				<Layers>
 					<Layer level="OVERLAY">
